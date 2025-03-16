@@ -1,21 +1,19 @@
-LAPORAN PRAKTIKUM
+*LAPORAN PRAKTIKUM* <br>
 
-==============================
-NIM : 244017027001
-NAMA : M. AGUNG WIBOWO
-KELAS : TI RPL-4K
-==============================
-
-List Instalasi
-![image](https://github.com/user-attachments/assets/c72fd046-421c-41b6-bbf4-0d5d07914519)
-
-Tentang Saya
-![image](https://github.com/user-attachments/assets/0e0876cb-8c81-4565-87ea-2af3872a49bd)
-![image](https://github.com/user-attachments/assets/dfad4592-a381-4e0e-8b9f-839e3ca55f61)
-![image](https://github.com/user-attachments/assets/113d422f-49d6-40a9-8342-6143f6df82be)
-
-Projek
-![image](https://github.com/user-attachments/assets/a1b36924-8c19-48d1-b3fc-fb3ba7ddd481)
-
-Esai
-![image](https://github.com/user-attachments/assets/cd36ac3a-b1e3-48ee-9286-0122432188e8)
+============================== <br>
+NIM : 244017027001 <br>
+NAMA : M. AGUNG WIBOWO <br>
+KELAS : TI RPL-4K <br>
+============================== <br>
+<br>
+*List Instalasi* <br>
+![image](https://github.com/user-attachments/assets/359e063d-5d0b-4dcc-90c5-f61c9fc54a82) <br>
+<br>
+*Tentang Saya* <br>
+![image](https://github.com/user-attachments/assets/7746faef-430b-4a51-bf82-8c6aec32de76) <br>
+<br>
+*Projek* <br>
+![image](https://github.com/user-attachments/assets/6e7a55ae-109a-4b7e-8324-9cd85f182640)<br>
+<br>
+Esai <br>
+![image](https://github.com/user-attachments/assets/25d2fe8f-b077-44c0-94bf-a98a3f746a89) <br>
