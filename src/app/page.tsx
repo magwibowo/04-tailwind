@@ -59,22 +59,70 @@ export default function HomePage() {
         </p>
         
         <h2 className="text-2xl font-bold text-cyan-600 mt-8 mb-4">Keahlian</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="bg-white p-4 rounded-lg shadow">
-            <h3 className="font-bold text-lg mb-2">Frontend Development</h3>
-            <p>React, Next.js, TypeScript, Tailwind CSS, HTML/CSS</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+          <div className="card-container gradient-blue p-6 rounded-xl custom-shadow hover:custom-shadow-hover border border-indigo-100">
+            <div className="flex items-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-indigo-600 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              <h3 className="font-bold text-xl text-indigo-800">Frontend Development</h3>
+            </div>
+            <div className="flex flex-wrap gap-2 mt-2">
+              {["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML/CSS"].map((skill) => (
+                <span key={skill} className="skill-tag bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">
+                  {skill}
+                </span>
+              ))}
+            </div>
           </div>
-          <div className="bg-white p-4 rounded-lg shadow">
-            <h3 className="font-bold text-lg mb-2">Backend Development</h3>
-            <p>Node.js, Express, MongoDB, PostgreSQL</p>
+          
+          <div className="card-container gradient-green p-6 rounded-xl custom-shadow hover:custom-shadow-hover border border-teal-100">
+            <div className="flex items-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-teal-600 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2" />
+              </svg>
+              <h3 className="font-bold text-xl text-teal-800">Backend Development</h3>
+            </div>
+            <div className="flex flex-wrap gap-2 mt-2">
+              {["Node.js", "Express", "MongoDB", "PostgreSQL"].map((skill) => (
+                <span key={skill} className="skill-tag bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm font-medium">
+                  {skill}
+                </span>
+              ))}
+            </div>
           </div>
-          <div className="bg-white p-4 rounded-lg shadow">
-            <h3 className="font-bold text-lg mb-2">UI/UX Design</h3>
-            <p>Figma, Adobe XD, Wireframing, Prototyping</p>
+          
+          <div className="card-container gradient-purple p-6 rounded-xl custom-shadow hover:custom-shadow-hover border border-purple-100">
+            <div className="flex items-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-purple-600 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
+              </svg>
+              <h3 className="font-bold text-xl text-purple-800">UI/UX Design</h3>
+            </div>
+            <div className="flex flex-wrap gap-2 mt-2">
+              {["Figma", "Adobe XD", "Wireframing", "Prototyping"].map((skill) => (
+                <span key={skill} className="skill-tag bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">
+                  {skill}
+                </span>
+              ))}
+            </div>
           </div>
-          <div className="bg-white p-4 rounded-lg shadow">
-            <h3 className="font-bold text-lg mb-2">Tools & Others</h3>
-            <p>Git, GitHub, VS Code, Docker, CI/CD</p>
+          
+          <div className="card-container gradient-amber p-6 rounded-xl custom-shadow hover:custom-shadow-hover border border-amber-100">
+            <div className="flex items-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-600 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              <h3 className="font-bold text-xl text-amber-800">Tools & Others</h3>
+            </div>
+            <div className="flex flex-wrap gap-2 mt-2">
+              {["Git", "GitHub", "VS Code", "Docker", "CI/CD"].map((skill) => (
+                <span key={skill} className="skill-tag bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm font-medium">
+                  {skill}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
         
